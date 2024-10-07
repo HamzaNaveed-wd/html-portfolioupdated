@@ -1,0 +1,50 @@
+html{
+    background-color: #1175bdb9;
+    color: #181C14;
+    text-align: center;
+}
+abbr {
+        font-style: italic;
+        color: chocolate;
+}
+h1, h3, p{
+    color: white;
+}
+div#Second{
+    padding: 1%;
+    color: rgb(255, 255, 255);
+}
+li{
+    list-style-type: none;
+}
+#Main-Menu > menu{
+
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    gap: 2em;
+    background: linear-gradient(to bottom, #187ab7, #03386d);
+    box-shadow: 2px 2px 1px rgba(3, 54, 96, 0.769);
+}
+#Third{
+    background-color: #03386d;
+    padding: 2.5%;
+}
+address{
+    color: aliceblue;
+}
+footer{
+    color: white;
+}
+.Grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+}
+.S1{
+    background-color: #0a4077;
+}
